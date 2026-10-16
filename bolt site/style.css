@@ -1,0 +1,701 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arail;
+}
+
+.container1 {
+    width: 100%;
+    background-color: rgb(255, 254, 253);
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+      
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90% ;
+}
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.Logo {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -2px;
+
+}
+div button {
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 22px;
+    background: #000000;
+    color: blanchedalmond;
+}
+
+.Rides {
+    height: 50%;
+    background-color: white;
+    display: flx;
+    justify-content: cente;
+    align-items: center;
+    text-align: center;
+    padding: 120px ;
+}
+
+.p {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 20px;
+}
+
+H1 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size:  20px;
+}
+
+.F {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.2;
+}
+.bolt-rides button {
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 14px;
+    padding: 10px 22px;
+    background: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+
+}
+
+.Ghana {
+    height: 55%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px ;
+    margin-top: -10px;
+}
+
+.H2 {
+    font-weight: bold;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.container {
+  display: flex; 
+  gap: 30px; 
+  width: 95%;
+  margin: auto;
+  padding: 20px 20px;
+  min-height: 400px;
+}
+<!--
+.three-cards {
+  display: flex;
+  gap: 20px;
+  padding: 40px 3%;
+  justify-content: center;
+
+}
+
+.card {
+  flex: 3;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 355px;
+  max-width: 350px;
+
+}
+.card:hover{
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);   
+}
+
+.card.dark {
+  background: BLACK;
+  color: white;
+ 
+}
+
+.card.light {
+  background: #fcf6ea;
+  color: #111;
+}
+
+.card-text {
+  padding: 28px 28px 15px 28px;
+}
+
+.card-text h3 {
+  font-size: 19px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.card-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.green-btn {
+  background: #2ebd77;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.white-btn {
+  background: white;
+  color: #111;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-img {
+  height: 100%;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+-->
+.Business {
+    background: #091d10;
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+    margin-top: -10px;
+
+}
+
+.business-small {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.business-title {
+    font-size: 4em;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: rgba(126, 255, 178, 0.596);
+}
+
+.well {
+    font-weight: bold;
+}
+
+.business-save {
+    background-color: #091d10;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    padding: 80px 5%;
+    justify-content: space-between;
+}
+
+.save-left h1{
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    
+}
+.save-left p{
+    line-height: 1.6;
+    max-width: 500px;
+    font-weight: 700;
+    font-family: Arial;
+}
+ 
+.save-right img{
+    width: 80%;
+    height:650px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Sign {
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(255,255,0.7);
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    margin-top: 30px;
+}
+
+.Sign:hover {
+    background: white;
+    color: #101e2f;
+    border-color: red;
+}
+
+.safety-section {
+  background: white; 
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.safety-section h2 {
+  font-size: 2.8em;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.safety-section .main-text {
+  max-width: 780px;
+  margin: 0 auto 25px auto;
+  font-size: 17px;
+  line-height: 1.9;
+  color: #333;
+}
+
+.safety-section .small-text {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.Features {
+    background: rgba(7, 7, 7, 0.952);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+    margin-top: 10px;
+
+}
+
+.features-small {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.features-title {
+    font-size: 3em;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+}
+
+.vhim {
+    font-weight: bold;
+}
+.HMM {
+  margin-top: -10px;
+}
+.airport{
+  text-align: left;
+  height: 150px;
+}
+
+.airport h1{
+  font-family: arial;
+  font-size: 2.3em;
+  font-weight: bolder;
+  padding: 50px 90px;
+}
+
+.airports-cities {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: black;
+    padding: 80px 5%;
+    justify-content: center;
+}
+
+.city-left img{
+    width: 80%;
+    height:650px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.city-right h1{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    
+}
+.city-right p{
+  margin-top: 25px;
+    line-height: 1.6;
+    max-width: 500px;
+    font-weight:700;
+    font-family: Arial;
+    color: #555;
+}
+
+.citybtn {
+  background: #1d7a60;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+  width: 250px;
+  margin-top: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 120px;
+}
+
+.Questions h1{
+  font-family: Arial;
+  font-size: 3em;
+  color: #000000;
+  font-weight: bold;
+}
+
+.faq {
+  max-width: 9000px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+.faq-item {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  padding: 0 15px;
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+  cursor: pointer;
+}
+.faq-question p {
+  font-weight: 600;
+  font-size: 19px;
+}
+.plus {
+  width: 32px;
+  height: 31px;
+  border-radius: 100%;
+  border: 1px solid #ddd;
+  background: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 0;
+}
+
+.plus:hover{
+  background-color: whitesmoke;
+}
+.faq-answer {
+  display: none;
+  padding-bottom: 18px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.faq-answer.show {
+  display: block;
+}
+
+.View {
+  background-color: #1d7a60;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arail,sans-serif;
+  font-weight: bold;
+  padding: 14px 28px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 540px;
+}
+
+.Apps {
+  display: block;
+  text-align: center;
+}
+
+.Apps h2 {
+  font-size: 3em;
+  font-family: sans-serif;
+
+}
+
+.Apps p{
+  color: #555;
+  line-height: 2;
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: Arial;
+}
+
+.Delivery{
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 80px;
+
+} 
+
+.Img img{
+    margin-left: -50px;
+    width: 100%;
+
+}
+
+.main-footer{
+  background: #1a1d1f;
+  color: white;
+  font-family: Arial,sans-serif;
+  padding: 50px;
+}
+
+
+
+.footer{
+  display: flex;
+  gap: 30px;
+  padding: 50px 60px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col h4{
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.col a{
+  display: block;
+  text-decoration: none;
+  color: #8a8a8a;
+  font-size: 15px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font:bolder;
+  font-size: large;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bottom-right{
+  text-align: right;
+}
+
+/* BUTTONS - Get Bolt */
+.top-links{
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.bolt-btn{
+  background: darkgreen;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bolt-btn:hover{
+  background: #3a4a5a;
+  transform: translateY(-1px);
+}
+
+.legal-links{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 11px;
+  
+}
+
+.legal-links a{
+  color: white;
+  
+}
+.legal-links a:hover{
+  text-decoration: dotted;
+}
+
+.bottom-right p{
+  font-size: 16px;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+ .bottom-right a{
+    font-size:medium;
+ }
+.col a:hover {
+  text-decoration: underline lightgreen ;
+
+}
+.bottom-left{
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.socials{
+  display: flex;
+  gap: 35px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.socials a{
+  color: white;
+  text-decoration: none;
+}
+
+.socials a:hover,.socials a:active{
+  color: #2ebd77;
+}
+
+
+
+.auto-slider{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 700px;
+  height: 500px;
+  background: #1a3c34;
+  border-radius: 24px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slide{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  pointer-events: none;
+}
+.slide.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev,.next{
+  position: absolute;
+  bottom: 20px;
+  width: 10px;
+  height: 30px;
+  background: white;
+  color: #000000;
+  border: 3px;
+  border-radius: 15%;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.prev{ left: 20px; }
+.next{ right: 20px; }
+
+.dots{
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+}
+.dot{
+  width: 6px;
+  height: 6px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dot.active{
+  background: #2EB875;
+  width: 18px;
+  border-radius: 10px;
+}
